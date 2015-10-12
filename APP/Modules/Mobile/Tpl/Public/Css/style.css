@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* common */
+p.form-tips { min-width: 50px; max-width: 500px; line-height: 22px; position: absolute; padding: 0px 5px; background-color: #D10B1B; color: #fff; font-size: 12px; }
+/* body wrapper styles */
+html, body {background-color: #8BD2CA;}
+#wrapper { width: 1200px; margin: 0px auto; position: relative; }
+@media screen and (max-width: 640px) {
+  #wrapper { width: 640px; }
+}
+.line-layout { width: 100%; float: left; position: relative; }
+/* header */
+#header { }
+#header .logo{ float:left;}
+/* content */
+#content { text-align:center;}
+#content .conimg{ display:inline;}
+/* footer */
+#footer { }
+#footer p{ text-align:center; color:#fff; font-size:1.3em; line-height:30px;}
+#footer p .linkmail{color:#fff; color:#900;}
+#footer p .linkmail:hover{ text-decoration:underline;}

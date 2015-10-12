@@ -1,0 +1,28 @@
+[ 2015-07-24T14:19:18+08:00 ] 0.0.0.0 /web/register/addTestUser
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' /Users/Steven/Sites/web/APP/Modules/Mobile/Action/RegisterAction.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /Users/Steven/Sites/web/APP/Modules/Mobile/Action/RegisterAction.class.php 第 101 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.001732s ]
+NOTIC: [8] Undefined variable: id /Users/Steven/Sites/web/APP/Modules/Mobile/Action/RegisterAction.class.php 第 103 行.
+SQL: INSERT INTO `tb_userinfo` (`uid`,`time`) VALUES (null,1437718758) [ RunTime:0.000087s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `tb_userinfo` (`uid`,`time`) VALUES (null,1437718758)
+
+[ 2015-07-24T14:21:20+08:00 ] 0.0.0.0 /web/register/addTestUser
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+

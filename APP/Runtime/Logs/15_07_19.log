@@ -1,0 +1,1471 @@
+[ 2015-07-19T16:51:23+08:00 ] 192.168.10.100 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000220s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.011663s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000326s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.001269s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000902s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000580s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_focus` WHERE ( `fid` = 10051 ) AND ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000194s ]
+
+[ 2015-07-19T16:51:23+08:00 ] 192.168.10.100 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001271s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000184s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.001238s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000911s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000942s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_focus` WHERE ( `fid` = 10051 ) AND ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000167s ]
+
+[ 2015-07-19T16:59:38+08:00 ] 192.168.10.100 /web/login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001240s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `tb_user` WHERE ( `mobile` = '18616527736' ) LIMIT 1   [ RunTime:0.000235s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `tb_user` WHERE ( `mobile` = '18616527736' ) AND ( `password` = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.000199s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `mobile` = '18616527736' ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000098s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `headicon`,`newsupportNum`,`newcommentNum` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `tb_dialog` [ RunTime:0.001039s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `newLetterNum` FROM `tb_dialog` WHERE ( sendId=10004 or receiveId=10004 )  [ RunTime:0.000193s ]
+
+[ 2015-07-19T16:59:38+08:00 ] 192.168.10.100 /web/article/homeList/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.010901s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000731s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `fid` FROM `tb_focus` WHERE ( `uid` = 10004 )  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.001943s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` IN ('10004','10042','10041','10040','10039','10038','10037','10036','10035','10034','10033','10032','10031','10030','10029','10028','10027','10026','10025','10024','10023','10022','10021','10020','10019','10018','10017','10013','10012','10011','10010','10009','10008','10007','10005','10003','10047','10056','10043','10051','10004') ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.001162s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `uid` IN ('10004','10042','10041','10040','10039','10038','10037','10036','10035','10034','10033','10032','10031','10030','10029','10028','10027','10026','10025','10024','10023','10022','10021','10020','10019','10018','10017','10013','10012','10011','10010','10009','10008','10007','10005','10003','10047','10056','10043','10051','10004') ) ORDER BY id DESC LIMIT 0,20   [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000805s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000142s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000106s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000097s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000093s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000114s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000115s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000106s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000122s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000135s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000127s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000108s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000124s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000139s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000136s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.000873s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 233 ) ORDER BY id DESC  [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.000895s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 233 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000126s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 230 ) ORDER BY id DESC  [ RunTime:0.000095s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 230 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000108s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 229 ) ORDER BY id DESC  [ RunTime:0.000091s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 229 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 228 ) ORDER BY id DESC  [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 228 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000102s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 224 ) ORDER BY id DESC  [ RunTime:0.000095s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 224 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000207s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000100s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000110s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000106s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 219 ) ORDER BY id DESC  [ RunTime:0.000128s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 219 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000137s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 218 ) ORDER BY id DESC  [ RunTime:0.000118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 218 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000120s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 217 ) ORDER BY id DESC  [ RunTime:0.000102s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 217 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000121s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 216 ) ORDER BY id DESC  [ RunTime:0.000104s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 216 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000157s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 213 ) ORDER BY id DESC  [ RunTime:0.000094s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000135s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 213 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000162s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 212 ) ORDER BY id DESC  [ RunTime:0.000105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 212 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000106s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 211 ) ORDER BY id DESC  [ RunTime:0.000094s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 211 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000106s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 209 ) ORDER BY id DESC  [ RunTime:0.000087s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 209 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000106s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 208 ) ORDER BY id DESC  [ RunTime:0.000086s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 208 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000104s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 207 ) ORDER BY id DESC  [ RunTime:0.000110s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 207 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000174s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 206 ) ORDER BY id DESC  [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 206 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000164s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 203 ) ORDER BY id DESC  [ RunTime:0.000100s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 203 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000107s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000100s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 201 ) ORDER BY id DESC  [ RunTime:0.000127s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 201 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000112s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 200 ) ORDER BY id DESC  [ RunTime:0.000090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 200 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000111s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 199 ) ORDER BY id DESC  [ RunTime:0.000087s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 199 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000093s ]
+
+[ 2015-07-19T16:59:39+08:00 ] 192.168.10.100 /web/article/homeList/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001921s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000736s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `fid` FROM `tb_focus` WHERE ( `uid` = 10004 )  [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000845s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` IN ('10004','10042','10041','10040','10039','10038','10037','10036','10035','10034','10033','10032','10031','10030','10029','10028','10027','10026','10025','10024','10023','10022','10021','10020','10019','10018','10017','10013','10012','10011','10010','10009','10008','10007','10005','10003','10047','10056','10043','10051','10004') ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000789s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `uid` IN ('10004','10042','10041','10040','10039','10038','10037','10036','10035','10034','10033','10032','10031','10030','10029','10028','10027','10026','10025','10024','10023','10022','10021','10020','10019','10018','10017','10013','10012','10011','10010','10009','10008','10007','10005','10003','10047','10056','10043','10051','10004') ) ORDER BY id DESC LIMIT 0,20   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000728s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000100s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000095s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000094s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000092s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000135s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000132s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000148s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000093s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.000712s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 233 ) ORDER BY id DESC  [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.000727s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 233 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000170s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 230 ) ORDER BY id DESC  [ RunTime:0.000139s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 230 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000156s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 229 ) ORDER BY id DESC  [ RunTime:0.000138s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 229 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000169s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000127s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 228 ) ORDER BY id DESC  [ RunTime:0.000139s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 228 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000154s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 224 ) ORDER BY id DESC  [ RunTime:0.000130s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 224 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000148s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000125s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000110s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 219 ) ORDER BY id DESC  [ RunTime:0.000128s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 219 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000117s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 218 ) ORDER BY id DESC  [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 218 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000144s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 217 ) ORDER BY id DESC  [ RunTime:0.000105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 217 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000150s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 216 ) ORDER BY id DESC  [ RunTime:0.000108s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 216 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000145s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 213 ) ORDER BY id DESC  [ RunTime:0.000118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000180s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 213 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000153s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 212 ) ORDER BY id DESC  [ RunTime:0.000126s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 212 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000151s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 211 ) ORDER BY id DESC  [ RunTime:0.000122s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 211 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000152s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 209 ) ORDER BY id DESC  [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 209 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000150s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 208 ) ORDER BY id DESC  [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 208 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000159s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 207 ) ORDER BY id DESC  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 207 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000129s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 206 ) ORDER BY id DESC  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 206 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000138s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 203 ) ORDER BY id DESC  [ RunTime:0.000099s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 203 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000114s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000098s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000104s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 201 ) ORDER BY id DESC  [ RunTime:0.000092s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 201 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000115s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 200 ) ORDER BY id DESC  [ RunTime:0.000087s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 200 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000109s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 199 ) ORDER BY id DESC  [ RunTime:0.000101s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 199 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000128s ]
+
+[ 2015-07-19T17:00:04+08:00 ] 192.168.10.100 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001870s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000274s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.001205s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000982s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000532s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_focus` WHERE ( `fid` = 10051 ) AND ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000170s ]
+
+[ 2015-07-19T17:00:04+08:00 ] 192.168.10.100 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001043s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000876s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.001306s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000670s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_focus` WHERE ( `fid` = 10051 ) AND ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000148s ]
+
+[ 2015-07-19T17:00:14+08:00 ] 192.168.10.104 /web/login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000755s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `tb_user` WHERE ( `mobile` = '15618961638' ) LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `tb_user` WHERE ( `mobile` = '15618961638' ) AND ( `password` = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_user` WHERE ( `mobile` = '15618961638' ) LIMIT 1   [ RunTime:0.000104s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `headicon`,`newsupportNum`,`newcommentNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tb_dialog` [ RunTime:0.000799s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `newLetterNum` FROM `tb_dialog` WHERE ( sendId=10051 or receiveId=10051 )  [ RunTime:0.000084s ]
+
+[ 2015-07-19T17:00:15+08:00 ] 192.168.10.104 /web/article/homeList/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001781s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000673s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `fid` FROM `tb_focus` WHERE ( `uid` = 10051 )  [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000704s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` IN ('10055','10047','10056','10050','10004','10051') ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000637s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `uid` IN ('10055','10047','10056','10050','10004','10051') ) ORDER BY id DESC LIMIT 0,20   [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000634s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000069s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000058s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.000553s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 233 ) ORDER BY id DESC  [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.000512s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 233 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000101s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 230 ) ORDER BY id DESC  [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 230 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000083s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 229 ) ORDER BY id DESC  [ RunTime:0.000064s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 229 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 228 ) ORDER BY id DESC  [ RunTime:0.000063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 228 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000077s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 227 ) ORDER BY id DESC  [ RunTime:0.000063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 227 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000081s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000046s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 226 ) ORDER BY id DESC  [ RunTime:0.000064s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000049s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 226 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 225 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 225 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 224 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 224 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000049s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000044s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 222 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 222 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 221 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 221 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 220 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 220 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000075s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 219 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 219 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 218 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 218 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000075s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 217 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 217 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 216 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 216 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 215 ) ORDER BY id DESC  [ RunTime:0.000063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 215 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 214 ) ORDER BY id DESC  [ RunTime:0.000059s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 214 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 213 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 213 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 212 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 212 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000077s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 211 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 211 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000075s ]
+
+[ 2015-07-19T17:00:15+08:00 ] 192.168.10.104 /web/article/homeList/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001751s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000628s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `fid` FROM `tb_focus` WHERE ( `uid` = 10051 )  [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000705s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` IN ('10055','10047','10056','10050','10004','10051') ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000714s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `uid` IN ('10055','10047','10056','10050','10004','10051') ) ORDER BY id DESC LIMIT 0,20   [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000659s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000069s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000068s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000054s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000049s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.000512s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 233 ) ORDER BY id DESC  [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.000801s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 233 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000166s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 230 ) ORDER BY id DESC  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000115s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 230 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000125s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 229 ) ORDER BY id DESC  [ RunTime:0.000123s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 229 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000113s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 228 ) ORDER BY id DESC  [ RunTime:0.000091s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 228 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000104s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 227 ) ORDER BY id DESC  [ RunTime:0.000090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 227 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000107s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000072s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 226 ) ORDER BY id DESC  [ RunTime:0.000095s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 226 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000094s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 225 ) ORDER BY id DESC  [ RunTime:0.000077s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 225 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000081s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 224 ) ORDER BY id DESC  [ RunTime:0.000129s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 224 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000125s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000091s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000108s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000103s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 222 ) ORDER BY id DESC  [ RunTime:0.000113s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 222 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000135s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 221 ) ORDER BY id DESC  [ RunTime:0.000088s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 221 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000133s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 220 ) ORDER BY id DESC  [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 220 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 219 ) ORDER BY id DESC  [ RunTime:0.000076s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 219 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000144s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 218 ) ORDER BY id DESC  [ RunTime:0.000073s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 218 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000083s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 217 ) ORDER BY id DESC  [ RunTime:0.000067s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 217 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 216 ) ORDER BY id DESC  [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 216 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 215 ) ORDER BY id DESC  [ RunTime:0.000064s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 215 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000077s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 214 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 214 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 213 ) ORDER BY id DESC  [ RunTime:0.000064s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000056s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 213 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000081s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 212 ) ORDER BY id DESC  [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 212 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 211 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 211 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+
+[ 2015-07-19T17:00:16+08:00 ] 192.168.10.104 /web/user/userinfo?uid=10004
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001572s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000171s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000705s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000840s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000599s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_focus` WHERE ( `fid` = 10004 ) AND ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000139s ]
+
+[ 2015-07-19T17:00:16+08:00 ] 192.168.10.104 /web/user/userinfo?uid=10004
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000768s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10004 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000902s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000690s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10004 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.000499s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_focus` WHERE ( `fid` = 10004 ) AND ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000093s ]
+
+[ 2015-07-19T17:30:30+08:00 ] 192.168.10.104 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.006295s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.001578s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.002144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.004088s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.001471s ]
+
+[ 2015-07-19T17:30:30+08:00 ] 192.168.10.104 /web/user/picList?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000725s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000496s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000183s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`pic`,`toreport` FROM `tb_article` WHERE ( `uid` = 10051 ) ORDER BY id DESC LIMIT 0,9   [ RunTime:0.000161s ]
+
+[ 2015-07-19T17:30:30+08:00 ] 192.168.10.104 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001629s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000117s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000635s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000577s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000174s ]
+
+[ 2015-07-19T17:30:35+08:00 ] 192.168.10.104 /web/user/picList?page=2&uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001492s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000522s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000125s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`pic`,`toreport` FROM `tb_article` WHERE ( `uid` = 10051 ) ORDER BY id DESC LIMIT 9,9   [ RunTime:0.000104s ]
+
+[ 2015-07-19T17:30:36+08:00 ] 192.168.10.104 /web/user/picList?page=3&uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001471s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000515s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000124s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`pic`,`toreport` FROM `tb_article` WHERE ( `uid` = 10051 ) ORDER BY id DESC LIMIT 18,9   [ RunTime:0.000108s ]
+
+[ 2015-07-19T17:30:38+08:00 ] 192.168.10.104 /web/article/detail?aid=175
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000655s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000770s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `id` = 175 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000646s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.002302s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 74 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 175 ) ORDER BY id DESC  [ RunTime:0.000103s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.001245s ]
+NOTIC: [2] Missing argument 2 for CommentRelationModel::getArticleComments(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 86 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/CommentRelationModel.class.php 第 25 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/CommentRelationModel.class.php 第 26 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 175 ) ORDER BY id DESC  [ RunTime:0.000117s ]
+
+[ 2015-07-19T17:30:39+08:00 ] 192.168.10.104 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001571s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000626s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000677s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000181s ]
+
+[ 2015-07-19T17:30:40+08:00 ] 192.168.10.104 /web/article/detail?aid=184
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001496s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000518s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `id` = 184 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000634s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.000531s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 74 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 184 ) ORDER BY id DESC  [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.000456s ]
+NOTIC: [2] Missing argument 2 for CommentRelationModel::getArticleComments(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 86 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/CommentRelationModel.class.php 第 25 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/CommentRelationModel.class.php 第 26 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 184 ) ORDER BY id DESC  [ RunTime:0.000118s ]
+
+[ 2015-07-19T17:30:42+08:00 ] 192.168.10.104 /web/user/userinfo?uid=10051
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001409s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000166s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`username`,`headicon`,`brief`,`focusNum`,`fansNum`,`newFocusNum`,`newfansNum` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000843s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `tb_userinfo` [ RunTime:0.000693s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `position` FROM `tb_userinfo` WHERE ( `uid` = 10051 ) LIMIT 1   [ RunTime:0.000135s ]
+
+[ 2015-07-19T17:30:44+08:00 ] 192.168.10.104 /web/article/homeList/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Common/common.php 第 217 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Users/Steven/Sites/web/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.001502s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `islock` FROM `tb_user` WHERE ( `id` = 10051 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `tb_focus` [ RunTime:0.002281s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `fid` FROM `tb_focus` WHERE ( `uid` = 10051 )  [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000672s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_article` WHERE ( `uid` IN ('10055','10047','10056','10050','10004','10051') ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `tb_article` [ RunTime:0.000690s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_article` WHERE ( `uid` IN ('10055','10047','10056','10050','10004','10051') ) ORDER BY id DESC LIMIT 0,20   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.000612s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000143s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000100s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000074s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000057s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10055' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000049s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000052s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000047s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000049s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000059s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000108s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10050' ) LIMIT 1   [ RunTime:0.000110s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000106s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `tb_support` [ RunTime:0.000472s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 233 ) ORDER BY id DESC  [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `tb_comments` [ RunTime:0.000483s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 233 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000142s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 230 ) ORDER BY id DESC  [ RunTime:0.000099s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 230 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 229 ) ORDER BY id DESC  [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 229 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000083s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10004' ) LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 228 ) ORDER BY id DESC  [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 228 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000080s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 227 ) ORDER BY id DESC  [ RunTime:0.000064s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 227 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000082s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000051s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000046s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 226 ) ORDER BY id DESC  [ RunTime:0.000065s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 226 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000080s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 225 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 225 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 224 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 224 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000079s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000052s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10057' ) LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.000045s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 222 ) ORDER BY id DESC  [ RunTime:0.000063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 222 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 221 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 221 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 220 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 220 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 219 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 219 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000095s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 218 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 218 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 217 ) ORDER BY id DESC  [ RunTime:0.000062s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 217 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000075s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 216 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 216 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000075s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 215 ) ORDER BY id DESC  [ RunTime:0.000061s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 215 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000075s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 214 ) ORDER BY id DESC  [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 214 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 213 ) ORDER BY id DESC  [ RunTime:0.000063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 213 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000078s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 212 ) ORDER BY id DESC  [ RunTime:0.000063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `id`,`headicon`,`username` FROM `tb_user` WHERE ( 1=1 AND id='10051' ) LIMIT 1   [ RunTime:0.000053s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 212 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 2 for SupportRelationModel::getArticleSupports(), called in /Users/Steven/Sites/web/APP/Modules/Mobile/Action/ArticleAction.class.php on line 148 and defined /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: limit /Users/Steven/Sites/web/APP/Modules/Mobile/Model/SupportRelationModel.class.php 第 19 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_support` WHERE ( `aid` = 211 ) ORDER BY id DESC  [ RunTime:0.000116s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Users/Steven/Sites/web/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM `tb_comments` WHERE ( `aid` = 211 ) ORDER BY id DESC LIMIT 3   [ RunTime:0.000110s ]
+

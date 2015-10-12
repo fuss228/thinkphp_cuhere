@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>后台管理</title>
+<link rel="stylesheet" href="__PUBLIC__/Css/reset.css">
+<link rel="stylesheet" href="__PUBLIC__/Css/admin.css">
+<link rel="stylesheet" href="__PUBLIC__/Css/page.css">
+<script src="__PUBLIC__/Js/jquery.js"></script>
+</head>
+<body>
+<div id="content">
+	<table class="tb_list">
+		<tr>
+			<th width="60">用户头像</th>
+			<th>用户昵称</th>
+			<th>注册号码</th>
+			<th>是否锁定</th>
+			<th>操作</th>
+		</tr>
+		<foreach name="list" item="v">
+			<tr>
+				<td><img src="{$v.headicon}"></td>
+				<td>{$v.username}</td>
+				<td>{$v.mobile}</td>
+				<td><if condition="$v.islock eq 1"><span style="color:#900;">已锁定</span><else /></if></td>
+				<td><a href="{:U(GROUP_NAME.'/User/detail', array('uid' => $v['id']))}">详情</a> - <if condition="$v.islock eq 1"><a style="color:#900;" href="{:U(GROUP_NAME.'/User/lock', array('uid' => $v['id']))}">取消锁定</a><else /><a href="{:U(GROUP_NAME.'/User/lock', array('uid' => $v['id']))}">锁定</a></if></td>
+			</tr>
+		</foreach>
+	</table>
+	<div class="megas512">
+		{$page}
+	</div>
+</div>
+</body>
+</html>

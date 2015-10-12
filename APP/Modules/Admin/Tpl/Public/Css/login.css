@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* header */
+#header { height: 68px; background: #7ecdc3; overflow: hidden;position: relative; text-align:center;box-shadow: 0px 0px 10px #666;}
+
+/* content */
+#content{}
+#content .login_area{ width:380px; margin:0 auto; text-align:center; margin-top:200px;}
+#content .login_area .form_text{ width:250px; height:45px; border:1px solid #ccc; border-radius:5px; margin-bottom:20px; padding-left:50px; font-size:16px; line-height:45px; color:#666;}
+#content .login_area #username{ background:url(../Images/icon-user.png) no-repeat 20px 15px;}
+#content .login_area #password{ background:url(../Images/icon-password.png) no-repeat 20px 15px;}
+#content .login_area .form_btn{ width:304px; height:44px; border:none; cursor:pointer; margin-bottom:70px; font-size:24px; background:url(../Images/btn-login-default.png);}
+#content .login_area .form_btn:hover{ background:url(../Images/btn-login-highlighted.png);}
+#content .link_site{ color:#979797; font-size:14px; text-align:center; padding-top:150px;}

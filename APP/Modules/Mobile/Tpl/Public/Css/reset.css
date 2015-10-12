@@ -1,0 +1,18 @@
+@charset utf-8;
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, iframe, button, input, select, textarea { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6, button, input, select, textarea { font-size: 100%; }
+li, ul, ol, dl, dd, dt, iframe { list-style: none; list-style-type: none; text-indent: 0; }
+header, footer, section, article, nav, img { display: block; }
+address, caption, cite, code, dfn, em, th, var, i { font-style: normal; font-weight: 400; }
+table { border-collapse: collapse; border-spacing: 0; empty-cells: show; }
+fieldset, img { border: 0; }
+a { text-decoration: none; color: #444; }
+caption, th, div { text-align: left; }
+button, input, select, textarea { vertical-align: middle; outline: none; }
+textarea { overflow: auto; vertical-align: top; resize: none; }
+body { color: #444; background: #FFF; }
+input, select, textarea, body { font: 12px/1.2 "Microsoft YaHei", "微软雅黑", helvetica, tahoma, arial, SimSun, "宋体"; }
+/* commom styles */
+.clr { clear: both; height: 0; line-height: 0; }/* 清除浮动 */
+.btn { cursor: pointer; }/* 鼠标指针hand */
+.text-indent { text-indent: 2em; }/* 文字缩进 */
