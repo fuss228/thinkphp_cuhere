@@ -52,9 +52,10 @@ Class LoginAction extends Action{
 		$returninfo['headicon']=headiconUrl($userinfo['headicon'], 60);
 		$returninfo['allMessage']=$allMessage;
 
-		//appKey : 3argexb6r95ne
-		//AppSecret : NJYHVZbVUxz
-		$p = new ServerAPI('3argexb6r95ne','NJYHVZbVUxz');
+		//appKey : 
+		//AppSecret : 
+		//此处的AppKey  AppSecret 为融云SDK
+		$p = new ServerAPI('','');
 		$r = $p->getToken($uid,$info['username'],$returninfo['headicon']);
 		//print_r($r);
 		$returninfo['token'] = $r;
